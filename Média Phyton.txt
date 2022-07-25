@@ -1,0 +1,28 @@
+Desenvolva um programa que utiliza o nome de um aluno, duas notas e a quantidade de faltas que ele teve. Conclua se o aluno está aprovado ou reprovado de acordo com as especificações:
+
+- Se a média do aluno for menor que sete, o sistema deve informar o nome do aluno e que ele está reprovado;
+- Se o aluno possuir mais de três faltas, o sistema deve informar o nome do aluno e que ele está reprovado;
+- Se a média do aluno for maior ou igual a sete, o sistema deve informar o nome do aluno e que ele está aprovado.
+
+No sistema, todos os valores devem estar armazenados em variáveis.
+
+print("------ RESULTADO DAS AVALIAÇÕES ------")
+
+nome = str
+nota1 = float
+nota2 = float
+numero_falta = int
+
+nome = str(input ("Informe o nome do aluno: "))
+numero_falta = int(input("Informe o número de falta(s) do(a) aluno(a) : "))
+if numero_falta > 3 :
+    print("Aluno(a) Reprovado(a) por faltas!")
+else :    
+    nota1 = float(input("Informe a 1° nota do(a) aluno(a) : "))
+    nota2 = float(input("Informe a 2° nota do(a) aluno(a) : "))
+    media = (nota1+nota2)/2
+    if ((nota1+nota2)/2) >= 7 :
+        print ("O(a) aluno(a) ", nome, " foi aprovado(a) com média :", media)
+        
+    else :
+        print ("O(a) aluno(a) ", nome, " foi reprovado(a) com média :", media)
