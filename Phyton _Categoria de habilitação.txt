@@ -1,0 +1,38 @@
+Aluna: Layane Macieira
+
+
+Desenvolva um código que utilize as seguintes características de um veículo:
+- Quantidade de rodas;
+- Peso bruto em quilogramas;
+- Quantidade de pessoas no veículo.
+
+Com essas informações, o programa mostrará qual é a melhor categoria de habilitação para o veículo informado a partir das condições:
+A: Veículos com duas ou três rodas;
+B: Veículos com quatro rodas, que acomodam até oito pessoas e seu peso é de até 3500 kg;
+C: Veículos com quatro rodas ou mais e com peso entre 3500 e 6000 kg;
+D: Veículos com quatro rodas ou mais e que acomodam mais de oito pessoas;
+E: Veículos com quatro rodas ou mais e com mais de 6000 kg.
+
+Realize essa atividade no WORD ou no Bloco de Notas, suba esse arquivo para algum repositório e compartilhe o link no campo ao lado para que outros desenvolvedores possam analisá-lo.
+
+_______________________________________________________
+
+print("CATEGORIA DE HABILITAÇÃO DO VEÍCULO")
+print ("")
+print("Sobre o veículo, responda:")
+print ("")
+roda = int (input("Qual a quantidade de rodas ? "))
+lugares = int (input ("Até quantas pessoas acomodam? "))
+peso = int (input ("Qual o peso bruto? "))
+if roda < 4 :
+  categoria = "A"
+elif roda == 4 and peso <= 3500 and lugares <= 8 :
+  categoria = "B"
+elif roda >= 4 and peso <= 3500 < 6000 :
+  categoria = "C"
+elif roda >= 4 and lugares > 8 :
+  categoria = "D"
+elif roda >= 4 and peso > 6000 :
+  categoria = "E"
+print("")
+print ("Conforme as características do veículo, a categoria ideal é a CATEGORIA " + categoria)
