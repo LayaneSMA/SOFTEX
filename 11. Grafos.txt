@@ -1,0 +1,8 @@
+Pesquise sobre os grafos e apresente dois exemplos de como são utilizados no contexto tecnológico.
+
+A presença de grafos no contexto tecnológico é bastante presente em nosso dia a dia. Alguns exemplos, como:
+ - Em aplicativos de geolocalização, onde as pessoas, veículos,empresas, e-commerce, entre outros, utilizam esta tecnologia para encontrar algum endereço, realizar entregas de mercadorias, entre outras aplicações;
+ - Organizações, empresas de tecnologia, usam grafos para modelar redes sociais, onde tudo está interligado, mapeiam sugestões de amigos, indicações de produtos/empresas baseados nas suas buscas, até campanhas eleitorais e de produtos.
+
+As aplicações são diversas, visto que o mundo está interconectado.
+
